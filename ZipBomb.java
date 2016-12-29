@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  */
 public class ZipBomb {
     public static void main(String[] args) {
-        System.out.println("Podaj nazwę pliku: ");
+        System.out.println("Podaj jak ma się nazywać plik: ");
         String fileName = new Scanner(System.in).next();
         try{
             Files.deleteIfExists(Paths.get(fileName));
